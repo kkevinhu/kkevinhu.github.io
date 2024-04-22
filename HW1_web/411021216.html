@@ -1,0 +1,116 @@
+<!DOCTYPE hmtl>
+<html>
+  <head>
+    <title>Welcome to Kevin's Website</title>
+    <!-- 導入css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <!-- 導航列 -->
+  <body>
+    <nav class="navbar border-bottom border-body navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link"  href="#home" aria-current="page" >Home</a>
+            <a class="nav-link"  href="#about_me">About me</a>
+            <a class="nav-link"  href="#resume">Resume</a>
+            <a class="nav-link"  href="#contact_me">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Welcome to website -->
+    <div style="margin: 20px;">
+    <header style=" background-color: #6ebcde;color: rgb(17, 39, 118);padding: 8px;  margin-top: 80px; margin-bottom: 30px; border-radius:10px;">
+      <h1 align="center" style="font-size:200%;">Welcome to Kevin's Website!</h1>
+    </header>
+    
+    <!-- Home -->
+    <section id="home">
+      <h2 class="roboto-black-italic">Home</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/4/43/National_Dong_Hwa_University_Logo.svg/1024px-National_Dong_Hwa_University_Logo.svg.png" alt="NDHU" align="right" width="256px" height="px">
+      <div class="homecard">
+        <img src="my_face.jpg" alt="my face" width="200" height="240" title="我的臉(my face)"style="border: 4px solid #C1C933; margin-right:20px;" align="left">
+        <p><h5>歡迎來到我的網站，我叫胡竣凱。你可以在這個網站看到很多關於我的事情，如果想更了解我，歡迎於下面的聯絡方式聯絡我!</h5></p>
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section id="about_me">
+      <h2 class="roboto-black-italic"> About me </h2>
+      <p><h5>我是胡竣凱，目前就讀國立東華大學資訊工程學系三年級，今年21歲。高中時學過python，在高中的專題設計了一個簡單的手寫數字辨識。大一時，學了C跟C++，不過那時的我覺得很枯燥乏味
+        ，似乎覺得寫程式好像是為了看到oj上面的AC，不過隨著大二修到了數邏跟計組，讓我對硬體的設計充滿了崇景。而踏入資工系已經第三年，學了很多專業知識，其中最有興趣的就是IC設計或是硬體設計，也是我的畢業專題的主題。
+        在未來日子，我仍會繼續探索各個領域，吸收知識充實自己，讓我有更多的技能。在課業之餘，我非常喜歡聽音樂、追劇、運動，尤其是排球，從大一就加入系排，也拿下了好幾次的獎牌，也很喜歡參加系上的
+        活動，像是資工日、耶趴等等。最近則是喜歡自己煮飯跟泡咖啡。期許在東華的最後兩年，能夠把握學習的機會及朋友之間的感情。
+      </h5></p>
+      <!-- 讓兩張圖片呈水平排列 -->
+      <div class="flexcard">
+        <div class="card">
+          <img src="vollyball.JPG" alt="volley" width="480" height="360" title="Volleyball">
+          <p><h5 align="center"  style="color:#dc2110">112學年度系際盃季軍</h5></p>
+        </div>
+        <div class="card">
+          <img src="dance.JPG" alt="dance" width="480" height="360" title="Dancing">
+          <p><h5 align="center" style="color:#dc2110">期末系聚-資工少年團</h5></p>
+        </div>
+      </div>
+      <p><h5>My favorite song:
+        <a class="a" href="https://www.youtube.com/watch?v=SdBwt6pyNwE">周杰倫-軌跡</a>
+      </h5></p>
+    </section>
+
+    <!-- resume -->
+    <section id="resume">
+      <h2 class="roboto-black-italic"> Resume </h2>
+      <h4 style="margin-left:35px"><em>教育背景:</em></h4> 
+      <h5><ul type="disc">
+        <li>台北市立民生國小</li>
+        <li>台北市立介壽國中</li>
+        <li>台北市立南港高中</li>
+        <li>花蓮縣國立東華大學</li>
+      </ul></h5>
+      <h4 style="margin-left:35px"><em>程式語言:</em></h4> 
+      <h5><ul type="disc">
+        <li>Python</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Verilog</li>
+      </ul></h5>
+      <h4 style="margin-left:35px"><em>教學經驗:</em></h4> 
+      <h5><ul type="disc">
+        <li>程設實驗助教</li>
+        <li>擔任數學家教</li>
+      </ul></h5>
+    </section>
+
+    <!-- contact_me -->
+    <section id="contact_me">
+      <h2 class="roboto-black-italic"> Contact Me</h2>
+      <p><h5>Gmail:&nbsp; 411021216@gms.ndhu.edu.tw</h5></p>
+      <p><h5>LineID:&nbsp; thisIsFake</h5></p>
+      <p><h5>Phone:&nbsp;0912345678</h5></p>
+      <div>
+        <a class="a" href="https://www.instagram.com/_kkevin.__/">
+          <!-- ig icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+          </svg>
+          instagram
+        </a>
+        <a class="a" href="https://www.facebook.com/profile.php?id=100007957697739">
+          <!-- facebook icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+          </svg>
+          facebook
+        </a>
+      </div>
+      </section>
+  </div></body>
+</html>

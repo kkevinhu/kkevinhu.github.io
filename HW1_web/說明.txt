@@ -1,0 +1,14 @@
+作業說明:
+1.導航系統:一頁式網頁(位於網頁最上方)
+2.超連結:About me最下面的[周杰倫-軌跡] 及 Contact最下面的[instagram], [facebook]
+3.圖片: Home的大頭照 About me下方共兩張(本地端) 及右上方東華的標誌(網路上的圖片)
+4. a)文字大小:共用到h1,h2, h4, h5 及 font-size:200%;
+   b)文字顏色:共用到 #6ebcde, #dc2110, #007bff
+5. a)box model: .homecard, .bigcard, .card 等等
+   b)position: .flaxcard(把兩張圖片呈水平排列 flex-direction: row), fixed-top(固定導行列)
+   c)其餘: navbar, border-bottom, border-body, navbar-expand-lg, bg-body-tertiary等等
+6.指定文字字體: Google fonts (css中的 roboto-black-italic), 套在每個區段的大標題內(Home, About me, resume, contact)
+7.額外技術: 
+   a)超連結去底線及變色:原本點下超連結後會有底線或是變色, 把a:visited, a:link內的text-decoration去掉
+   b)transition:把鼠標移到上方的導行列或是最下方ig, fb會有動態效果(會出現一個框框), 把指定class的hover中的transition設成all           
+     0.3s ease  

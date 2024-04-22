@@ -1,0 +1,80 @@
+.homecard {
+    width: 900px;
+    height: 240px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+
+.bigcard {
+    width: 1360px;
+    height: 420px;
+}
+
+.card {
+    width: 480px;
+    height: 420px;
+    margin: 0 2vw;
+}
+
+.nav-link {
+    margin: 0vh 1vw;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    background-color: #4ec1db;
+    border-radius: 10px;
+    padding: 5px 16px;
+    transition: all 0.3s ease;
+}
+
+.flexcard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+a:visited,
+a:link {
+    text-decoration: none;
+}
+
+.a {
+    margin: 0vh 1vw;
+}
+
+.a:hover {
+    background-color: #4ec1db;
+    border-radius: 10px;
+    padding: 5px 8px;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    background-color: #6ebcde;
+    color: white;
+    width: 250px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px #494331;
+    margin: 15px 0;
+}
+
+h5 {
+    margin: 0 35px;
+}
+
+h6 {
+    margin: 0 60px;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
